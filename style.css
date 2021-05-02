@@ -1,0 +1,80 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+body{
+          font-family: 'Rajdhani', sans-serif;
+          background: lightgrey;
+}
+
+::-webkit-scrollbar{
+          width: 0px;
+          display: none;
+}
+
+.section{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          margin-top: 50px;
+}
+
+.section h1{
+          font-weight: 500;
+}
+
+.section input{
+       width: 250px;
+       height: 40px;
+       font-size: 16px;
+       outline: none;
+       font-weight: lighter;
+       color: gray;
+       padding-left: 10px;
+       margin-top: 20px;
+}
+
+.data{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+}
+
+.images{
+          width: 300px;
+          height: 300px;
+}
+
+img{
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+          padding-top: 5px;
+          padding-bottom: 5px;
+}
+
+.map__here{
+          margin-top: 50px;
+}
+
+.name__house__image{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          border: 1px solid gray;
+          margin: 10px;
+}
+
+.name__house__image p:first-child{
+          margin-bottom: 10px;
+          margin-top: 10px;
+}
+
+.name__house__image p:last-child{
+          margin-bottom: 10px;
+          margin-top: 10px;
+}
